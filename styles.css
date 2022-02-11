@@ -8,6 +8,7 @@ body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 550;
 }
+
 /* grid container setup */
 .grid-container {
   display: grid;
@@ -16,7 +17,7 @@ body {
   align-self: center;
 }
 
-/* styling the cards using flex*/
+/* styling the cards using flex */
 .card {
   border: solid 1px #dfe1e6;
   border-radius: 18px;
@@ -33,7 +34,6 @@ body {
   justify-content: space-between;
   align-items: baseline;
   list-style-type: none;
-  padding-left: 0px;
 }
 
 /* styling main-heading */
@@ -42,14 +42,13 @@ body {
   color: #172b4d;
   font-size: 32px;
   margin-top: 15px;
-  margin-bottom: 0px;
 }
 
 /* styling canopy */
 .canopy {
   font-weight: bold;
   color: #344563;
-  margin: 12px 0px;
+  margin: 12px;
 }
 
 .dev {
@@ -93,7 +92,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   border: 0.5px solid #396df2;
-  font-weight: 500px;
+  font-weight: normal;
   font-size: 20px;
   align-items: center;
 }
