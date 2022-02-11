@@ -225,9 +225,3 @@ img[src*="right_arrow.png"] {
   width: 10px;
   top: 6px;
 }
-
-.hr {
-  position: fixed;
-  height: 0.5px;
-  background: #dfe1e6;
-}
