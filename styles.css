@@ -61,7 +61,7 @@ a:link { text-decoration: none; }
   background-image: url(pics/header.png);
   display: flex;
   align-items: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .name {
@@ -115,9 +115,10 @@ a:link { text-decoration: none; }
 .apps li { display: inline-block; }
 
 .box { padding-right: 12px; }
+
 .box:hover {
   cursor: pointer;
-  -webkit-filter: drop-shadow(0 0 2px #505F79);
+  -webkit-filter: drop-shadow(0 0 2px black);
 }
 
 .box1 {
@@ -200,16 +201,16 @@ a:link { text-decoration: none; }
   font-weight: 700;
 }
 
-.l-button:hover { 
+.l-button:hover {
   cursor: pointer;
   color: white;
-  background: #6071FC;
+  background: #6071fc;
 }
 
-.l-button:focus { 
+.l-button:focus {
   cursor: pointer;
   color: white;
-  background: #2234D3;
+  background: #2234d3;
 }
 
 .see-project {
@@ -223,16 +224,16 @@ a:link { text-decoration: none; }
   align-items: center;
 }
 
-.see-project:hover { 
-  cursor: pointer; 
+.see-project:hover {
+  cursor: pointer;
   color: #fff;
-  background-color: #6071FC;
+  background-color: #6071fc;
 }
 
-.see-project:focus { 
+.see-project:focus {
   cursor: pointer; 
   color: #fff;
-  background-color: #2234D3;
+  background-color: #2234d3;
 }
 
 .about {
@@ -277,29 +278,29 @@ a:link { text-decoration: none; }
   width: 50%;
 }
 
-img[src*="twitter_bird.png"]:hover { 
+img[src*="twitter_bird.png"]:hover {
   cursor: pointer; 
-  -webkit-filter: drop-shadow(0 0 2px #505F79);
+  -webkit-filter: drop-shadow(0 0 2px black);
 }
 
-img[src*="linked_in_logo.svg"]:hover { 
+img[src*="linked_in_logo.svg"]:hover {
   cursor: pointer;
-  -webkit-filter: drop-shadow(0 0 2px #505F79);
+  -webkit-filter: drop-shadow(0 0 2px black);
 }
 
-img[src*="M.svg"]:hover { 
+img[src*="M.svg"]:hover {
   cursor: pointer;
-  -webkit-filter: drop-shadow(0 0 2px #505F79);
+  -webkit-filter: drop-shadow(0 0 2px black);
 }
 
-img[src*="github_cat.svg"]:hover { 
+img[src*="github_cat.svg"]:hover {
   cursor: pointer;
-  -webkit-filter: drop-shadow(0 0 2px #505F79);
+  -webkit-filter: drop-shadow(0 0 2px black);
 }
 
-img[src*="peace.svg"]:hover { 
+img[src*="peace.svg"]:hover {
   cursor: pointer;
-  -webkit-filter: drop-shadow(0 0 2px #505F79);
+  -webkit-filter: drop-shadow(0 0 2px black);
 }
 
 .cv {
@@ -315,13 +316,13 @@ img[src*="peace.svg"]:hover {
 .cv:hover { 
   cursor: pointer;
   color: #fff;
-  background-color: #6071FC;
+  background-color: #6071fc;
 }
 
-.cv:focus { 
-  cursor: pointer; 
+.cv:focus {
+  cursor: pointer;
   color: #fff;
-  background-color: #2234D3;
+  background-color: #2234d3;
 }
 
 .frameworks {
@@ -335,11 +336,6 @@ img[src*="peace.svg"]:hover {
   flex-direction: column;
   list-style-type: none;
   padding-left: 0;
-}
-
-.name-lang:hover { 
-  cursor: pointer;
-  font-weight: bolder; 
 }
 
 img[src*="Union.png"] {
@@ -370,6 +366,11 @@ img[src*="Union.png"] {
   font-size: 15px;
 }
 
+.name-lang:hover {
+  cursor: pointer;
+  font-weight: bolder;
+}
+
 .works-list {
   display: flex;
   justify-content: space-between;
@@ -379,7 +380,7 @@ img[src*="Union.png"] {
   margin-left: -30px;
 }
 
-.works-list:hover{
+.works-list:hover {
   cursor: pointer;
   font-weight: bolder;
 }
