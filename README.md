@@ -1,1 +1,53 @@
-# Portfolio-mobile-version
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Portfolio: Mobile Version 
+
+> Portfolio: Mobile version project is developed showing my portfolio and learning the use of Css flexbox and grid.
+
+
+## Built With
+
+- HTML
+- CSS
+- Linters 
+
+
+## Getting Started
+
+**I would be installing linters and showing the best practices when pushing to git.**
+
+
+
+To get a local copy up and running follow these simple steps.
+
+
+### Setup
+
+Clone this repo on git " git clone https://github.com/davidobi/Portfolio-mobile-version.git" 
+
+next: cd into the directory "cd Portfolio-mobile-version"
+
+
+
+## Authors
+
+👤 **David**
+
+- GitHub: [@davidobi](https://github.com/davidobi)
+- Twitter: [@davidobi](https://twitter.com/realdavidobi)
+- LinkedIn: [@davidobi](https://www.linkedin.com/in/realdavidobi/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
