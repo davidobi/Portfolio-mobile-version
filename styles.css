@@ -231,7 +231,7 @@ a:link { text-decoration: none; }
 }
 
 .see-project:focus {
-  cursor: pointer; 
+  cursor: pointer;
   color: #fff;
   background-color: #2234d3;
 }
@@ -279,7 +279,7 @@ a:link { text-decoration: none; }
 }
 
 img[src*="twitter_bird.png"]:hover {
-  cursor: pointer; 
+  cursor: pointer;
   -webkit-filter: drop-shadow(0 0 2px black);
 }
 
@@ -313,7 +313,7 @@ img[src*="peace.svg"]:hover {
   padding: 10px;
 }
 
-.cv:hover { 
+.cv:hover {
   cursor: pointer;
   color: #fff;
   background-color: #6071fc;
