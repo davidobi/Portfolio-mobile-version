@@ -3,7 +3,7 @@ body {
   justify-content: center;
   position: relative;
   width: 375px;
-  min-height: 100vh;
+  min-height: 2000vh;
   background: #ebebff;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 550;
@@ -135,22 +135,54 @@ body {
   width: 50%;
 }
 
-img[src*="twitter_bird.png"]:hover {
-  cursor: pointer;
+img[src*="twitter_bird.png"]:hover { cursor: pointer; }
+
+img[src*="linked_in_logo.svg"]:hover { cursor: pointer; }
+
+img[src*="M.svg"]:hover { cursor: pointer; }
+
+img[src*="github_cat.svg"]:hover { cursor: pointer; }
+
+img[src*="peace.svg"]:hover { cursor: pointer; }
+
+.cv {
+  color: #396df2;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 0.5px solid #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 10px;
 }
 
-img[src*="linked_in_logo.svg"]:hover {
-  cursor: pointer;
+.frameworks {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  padding-left: 0;
 }
 
-img[src*="M.svg"]:hover {
-  cursor: pointer;
+.language {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0;
+}
+.img-fw {
+  display: flex;
+  float: left;
 }
 
-img[src*="github_cat.svg"]:hover {
-  cursor: pointer;
+.img-lang {
+  border: none;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  margin: 12px;
 }
-
-img[src*="peace.svg"]:hover {
-  cursor: pointer;
+.name-lang {
+  padding-top: 15px;
+  padding-left: 60px;
+  color: #253858;
+  font-weight: 500;
+  font-size: 15px;
 }
