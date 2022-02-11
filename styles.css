@@ -134,3 +134,23 @@ body {
   padding-left: 0;
   width: 50%;
 }
+
+img[src*="twitter_bird.png"]:hover {
+  cursor: pointer;
+}
+
+img[src*="linked_in_logo.svg"]:hover {
+  cursor: pointer;
+}
+
+img[src*="M.svg"]:hover {
+  cursor: pointer;
+}
+
+img[src*="github_cat.svg"]:hover {
+  cursor: pointer;
+}
+
+img[src*="peace.svg"]:hover {
+  cursor: pointer;
+}
