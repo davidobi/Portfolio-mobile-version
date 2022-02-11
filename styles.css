@@ -45,7 +45,7 @@ body {
 }
 
 /* styling canopy */
-.canopy { 
+.canopy {
   font-weight: bold;
   color: #344563;
   margin-left: -30px;
@@ -170,7 +170,7 @@ img[src*="peace.svg"]:hover { cursor: pointer; }
   padding-left: 0;
 }
 
-.language:hover { cursor: pointer;}
+.language:hover { cursor: pointer; }
 
 img[src*="Union.png"] {
   display: block;
@@ -191,6 +191,7 @@ img[src*="Union.png"] {
   border-radius: 8px;
   margin: 10px;
 }
+
 .name-lang {
   padding-top: 15px;
   padding-left: 60px;
@@ -198,6 +199,7 @@ img[src*="Union.png"] {
   font-weight: normal;
   font-size: 15px;
 }
+
 .works-list {
   display: flex;
   justify-content: space-between;
