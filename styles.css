@@ -119,3 +119,18 @@ body {
   color: #344563;
   font-weight: normal;
 }
+
+.socials {
+  color: #7f8cff;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  list-style-type: none;
+  padding-left: 0;
+  width: 50%;
+}
