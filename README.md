@@ -3,6 +3,7 @@
 # Portfolio: Mobile Version 
 
 > Portfolio: Mobile version project is developed showing my portfolio and learning the use of Css flexbox and grid.
+> Here i created two sections to add to the introductory skeleton section created in this repo: https://github.com/davidobi/Portfolio-setup-and-mobile-version-skeleton
 
 
 ## Built With

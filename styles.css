@@ -98,3 +98,24 @@ body {
 }
 
 .see-project:hover { cursor: pointer; }
+
+.about {
+  border-top-right-radius: 16%;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 114px;
+  margin-bottom: 114px;
+}
+
+.me {
+  font-weight: bold;
+  color: #172b4d;
+  font-size: 40px;
+  padding-top: 114px;
+}
+
+.introduction {
+  font-size: 16px;
+  color: #344563;
+  font-weight: normal;
+}
