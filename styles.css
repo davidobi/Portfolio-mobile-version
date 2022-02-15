@@ -5,6 +5,7 @@ body {
   align-items: center;
   background-color: #e5e5e5;
 }
+
 /* container */
 .container {
   width: 375px;
@@ -403,59 +404,59 @@ img[src*="right_arrow.png"] {
 }
 
 footer {
-    background-color: #6070ff;
-    border-radius: 80px 0 0 0;
-    background-image: url(pics/contactFormBackground.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    min-height: 55vw;
-  }
+  background-color: #6070ff;
+  border-radius: 80px 0 0 0;
+  background-image: url(pics/contactFormBackground.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 55vw;
+}
 
-  footer h2 {
-    font-size: 40px;
-    justify-content: center;
-    display: flex;
-    color: #f3f4f4;
-  }
+footer h2 {
+  justify-content: center;
+  display: flex;
+  color: #f3f4f4;
+  font-size: 40px;
+}
 
-  footer .contact-text {
-    font-size: 20px;
-    line-height: 28px;
-    justify-content: center;
-    margin-left: 22px;
-    margin-right: 22px;
-    font-family: 'Poppins', sans-serif;
-    color: #EBEBFF;
-  }
+footer .contact-text {
+  font-size: 20px;
+  line-height: 28px;
+  justify-content: center;
+  margin-left: 22px;
+  margin-right: 22px;
+  font-family: 'Poppins', sans-serif;
+  color: #EBEBFF;
+}
 
-  .message {
-    border: 0;
-    outline: none;
-    color: #b3bac5;
-    min-height: 170px;
-    border-radius: 8px;
-    padding-left: 16px;
-    padding-top: 16px;
-  }
+.message {
+  border: 0;
+  outline: none;
+  color: #b3bac5;
+  min-height: 170px;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-top: 16px;
+}
 
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-left: 22px;
-    margin-right: 22px;
-  }
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 22px;
+  margin-right: 22px;
+}
 
-  .inp {
-    border: 0;
-    border-radius: 8px;
-    padding: 16px;
-  }
+.inp {
+  border: 0;
+  border-radius: 8px;
+  padding: 16px;
+}
 
-  .submit-contact {
-    padding: 20px;
-    width: 50%;
-    margin-top: 10px;
+.submit-contact {
+  margin-top: 10px;
+  padding: 20px;
+  width: 50%;
 }
 
 .submit-contact:hover { font-weight: bold; }
