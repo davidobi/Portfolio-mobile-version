@@ -55,7 +55,10 @@ a:link { text-decoration: none; }
   align-items: center;
 }
 
-.ham { padding-left: 10px; }
+.ham {
+  padding-left: 10px; 
+  cursor: pointer;
+}
 
 .description {
   background-size: cover;
