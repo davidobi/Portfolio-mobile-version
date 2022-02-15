@@ -20,7 +20,7 @@
                     <img class="ham" src="pics/hamburger.png" alt="hamburger">
                 </nav>
             </div>
-    
+            <!-- Start of homepage section -->
             <section class="description">
     
                 <div class="name">
@@ -65,6 +65,8 @@
                 </ul>
             </div>
         </section>
+        <!-- end of homepage section -->
+        <!-- start of works section -->
         <section class="works">
             <div class="grid-container">
                 <div class="card card1">
@@ -184,6 +186,8 @@
                 </div>
             </div>    
         </section>
+        <!-- end of works section -->
+        <!-- start of about section -->
         <section class="about">
             <h2 class="me"> About<br>Myself</h2>
             <p class="introduction">
@@ -226,29 +230,31 @@
                 </li>
             </ul>
         </section>
+        <!-- End of About Section -->
+
+        <!-- Start of footer section -->
         <section class="grid-container">
             <footer class="footer">
                 <h2>Contact me</h2>
                 <p class="contact-text">If you have an application you are interested in developing, a feature that
                         you need built or a project that needs coding. I’d love to help with it </p>
-                <form action="https://formspree.io/f/xknyroyr" method="post">
+                <form class="contact-form" action="https://formspree.io/f/xknyroyr" method="post">
                 
                     <label for="name"></label>
-                    <input type="text" placeholder="Yeremias" id="name" maxlength="30" required>
+                    <input class="inp" type="text" placeholder="Yeremias" id="name" maxlength="30" required>
                 
                     <label for="mail"></label>
-                    <input type="email" id="mail" placeholder="natajayanj14@gmail.com" required>
+                    <input class="inp" type="email" id="mail" placeholder="natajayanj14@gmail.com" required>
                 
                     <label for="message"></label>
-                    <textarea name="user_msg" id="message" maxlength="500" placeholder="Write your message here"
-                            required></textarea>
-                    <button type="submit" class="submit-contact">Get In Touch</button>
+                    <textarea class="message" name="user_msg" id="message" maxlength="500" placeholder="Write your message here" required>
+                    </textarea>
+                    <button type="submit" class="cv submit-contact">Get In Touch</button>
                 </form>
-            </footer>
+            </footer>    
         </section>
+        <!-- end of footer section -->
     </section>
-    
-    
-    
+    <!-- end of container section -->   
 </body>
 </html>
