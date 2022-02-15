@@ -238,8 +238,9 @@ a:link { text-decoration: none; }
 }
 
 .about {
-  border-top-right-radius: 16%;
+  border-top-right-radius: 80px;
   background-color: #fff;
+  font-family: "Poppings", sans-serif;
   padding: 20px;
   margin-top: 114px;
   margin-bottom: 114px;
@@ -443,8 +444,7 @@ footer .contact-text {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-left: 22px;
-  margin-right: 22px;
+  margin: 0 22px;
 }
 
 .inp {
