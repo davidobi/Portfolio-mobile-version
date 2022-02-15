@@ -411,6 +411,7 @@ footer {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   min-height: 55vw;
+  padding: 20px 0;
 }
 
 footer h2 {
