@@ -1,4 +1,80 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1152px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+p {
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+section {
+  padding-top: 100px;
+}
+/* styling the desktop nav */
+.mobile-logo {
+  display: none;
+}
+.desktop-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  padding: 2px 30px;
+  width: calc(1152px - 200px);
+  padding-right: 0;
+}
+.desktop-logo {
+  text-decoration: none;
+  color: #6070ff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+;
+}
+
+.menu-items {
+  display: flex;
+  list-style: none;
+}
+
+.nav-link {
+ padding: 10px 12px;
+ 
+}
+
+.top-nav {
+  text-decoration: none;
+  color: #172b4d;
+}
+
+.menu-items .contact {
+margin-right: 0;
+}
+
+@media only screen and (max-width: 600px){
+  .desktop-nav {
+    display: none;
+  }
+
+  body {
   display: flex;
   min-height: 100vh;
   justify-content: center;
@@ -35,7 +111,7 @@ header li {
   display: inline-block;
 }
 
-.my-logo {
+.my-mobile-logo {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -48,7 +124,7 @@ header li {
 
 a:link { text-decoration: none; }
 
-.logo {
+.mobile-logo {
   display: flex;
   margin: 0 24px 10px 24px;
   justify-content: space-between;
@@ -464,3 +540,5 @@ footer .contact-text {
 }
 
 .submit-contact:hover { font-weight: bold; }
+
+
