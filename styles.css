@@ -586,7 +586,7 @@ footer .contact-text {
     width: 1082px;
   }
 
-  .card2, 
+  .card2,
   .card4 { display: none; }
 
   .card .screenshot { width: 50%; }
@@ -599,7 +599,8 @@ footer .contact-text {
     padding: 20px;
     width: 500px;
   }
-  .sub-heading, 
+
+  .sub-heading,
   .main-heading { padding-bottom: 20px; }
 
   .language-button { padding-bottom: 20px; }
@@ -651,7 +652,7 @@ footer .contact-text {
 
   ul .language { display: flex; }
 
-  .socials, 
+  .socials,
   .icons { padding-bottom: 20px; }
 
   .works-list { padding-top: 20px; }
