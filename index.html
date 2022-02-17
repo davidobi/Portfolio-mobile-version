@@ -8,30 +8,30 @@
     <title>David's Portfolio - Mobile</title>
 </head>
 <body>
-    <div class="container">
-        <div class="pg-1">
-            <header>
+    <div>
+        <header>
+        
+        </header>
+        <!-- start of desktop nav -->
+        <nav class="desktop-nav">
+            <div class="desktop-logo">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    Welcome
+                </a>
+            </div>
+        
+            <ul class="menu-items">
+                <li class="nav-link"> <a class="top-nav" href="#about">Portfolio</a> </li>
+                <li class="nav-link"> <a class="top-nav" href="#projects">About</a> </li>
+                <li class="nav-link contact"> <a class="top-nav" href="#testimonials">Contact</a> </li>
+            </ul>
+        </nav>
+        <!-- End of desktop nav -->
     
-            </header>
-            <!-- start of desktop nav -->
-            <nav class="desktop-nav">
-                <div >
-                    <a class="desktop-logo" href="#" target="_blank" rel="noopener noreferrer">
-                        Welcome
-                    </a>
-                </div>
+    <section class="container">
+        <section class="pg-1">
             
-                <div class="menu-icon">
-                    <img src="images/MenuIcon.svg" alt="" />
-                </div>
             
-                <ul class="menu-items">
-                    <li class="nav-link"> <a class="top-nav" href="#about">Portfolio</a> </li>
-                    <li class="nav-link"> <a class="top-nav" href="#projects">About</a> </li>
-                    <li class="nav-link contact"> <a class="top-nav" href="#testimonials">Contact</a> </li>
-                </ul>
-            </nav>
-            <!-- End of desktop nav -->
             <!-- Start of mobile nav -->
             <div class="mobile-logo">
                 <h2 class="my-mobile-logo"><a href="#" target="_blank" rel="noopener noreferrer">Welcome</a></h2>
@@ -41,10 +41,10 @@
             </div>
             <!-- end of mobile nav -->
             <!-- Start of homepage section -->
-            <section class="description">
+            <section class="description-mob">
     
                 <div class="name">
-                    <h1>I’m David <br> Glad to see <br> you!</h1>
+                    <h1>I’m David <br> Glad to see you!</h1>
     
                     <p>I’m a software developer! I can help you build a product , feature or website Look through some
                         of my work and experience! If you like what you see and have a project you need coded, don’t
@@ -54,6 +54,20 @@
                 <div class="connect">
                     <h3>LET'S CONNECT</h3>
                 </div>
+            </section>
+            <section class="description-des">
+            
+                <div class="name-des">
+                    <h1>I’m David <br> Glad to see you!</h1>
+            
+                    <p>I’m a software developer! I can help you build a product , feature or website Look through some
+                        of my work and experience! If you like what you see and have a project you need coded, don’t
+                        hestiate to contact me. </p>
+                    
+                    <h3 class="connecting">LET'S CONNECT</h3>
+                    
+                </div>
+                
             </section>
     
             <div class="apps">
@@ -84,7 +98,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </section>
         <!-- end of homepage section -->
         <!-- start of works section -->
         <section class="works">
@@ -274,6 +288,7 @@
             </footer>    
         </section>
         <!-- end of footer section -->
+        </section>
     </div>
     <!-- end of container section -->   
 </body>
