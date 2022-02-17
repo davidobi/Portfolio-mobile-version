@@ -621,6 +621,7 @@ footer .contact-text {
     width: 300px;
     min-height: 75vw;
     padding-bottom: 40px;
+    padding-left: 20px;
   }
 
   .abt2 {
@@ -642,7 +643,7 @@ footer .contact-text {
 
   .img-fw {
     width: 28px;
-    padding: 0px 0 0 10px;
+    padding-right: 10px;
   }
 
   .name-lang { padding: 20px 30px 0 10px; }
@@ -847,6 +848,7 @@ footer .contact-text {
     width: 400px;
     min-height: 75vw;
     padding-bottom: 40px;
+    padding-left: 80px;
   }
 
   .abt2 {
@@ -1074,6 +1076,7 @@ footer .contact-text {
     width: 500px;
     min-height: 60vw;
     padding-bottom: 20px;
+    padding-left: 100px;
   }
 
   .abt2 {
@@ -1135,6 +1138,3 @@ footer .contact-text {
 
   .submit-contact { align-self: center; }
 }
-
-
-
