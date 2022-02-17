@@ -17,8 +17,6 @@
 
 **I would be installing linters and showing the best practices when pushing to git.**
 
-
-
 To get a local copy up and running follow these simple steps.
 
 
@@ -28,10 +26,9 @@ Clone this repo on git " git clone https://github.com/davidobi/Portfolio-mobile-
 
 next: cd into the directory "cd Portfolio-mobile-version"
 
-### Pull requests
-This repo has two pull requests, the Works page and the about page, Please access the about page pull: [here](https://github.com/davidobi/Portfolio-mobile-version/pull/2).
 
-
+### Live Demo
+[Live Demo Link](https://davidobi.github.io/Portfolio-mobile-version/)
 
 ## Authors
 
