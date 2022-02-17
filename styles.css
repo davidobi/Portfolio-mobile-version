@@ -457,8 +457,234 @@ footer .contact-text {
 
 .submit-contact:hover { font-weight: bold; }
 
-/* DESKTOP VERSION CSS */
-@media only screen and (min-width: 600px) {
+/* DESKTOP VERSION CSS LARGE SCREEN SIZE */
+@media only screen and (min-width: 700px) {
+  html { scroll-behavior: smooth; }
+
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body { font-family: "Roboto", sans-serif; }
+
+  .container {
+    width: 1082px;
+    border: 1px solid white;
+    margin: 0 auto;
+    padding: 0 100px;
+  }
+
+  p {
+    line-height: 2;
+    margin-bottom: 20px;
+  }
+
+  section { padding-top: 100px; }
+
+  /* styling the desktop nav */
+  .mobile-logo { display: none; }
+
+  .desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    width: 1082px;
+    background-color: white;
+    padding-right: 150px;
+  }
+
+  .desktop-logo {
+    text-decoration: none;
+    color: #6070ff;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    padding-left: 100px;
+  }
+
+  .pg-1 {
+    margin-left: -100px;
+    width: 1082px;
+    background-color: white;
+    border-bottom-left-radius: 100px;
+    background-image: url(pics/Group.png);
+    background-repeat: no-repeat;
+    background-size: 1082px 646px;
+    box-sizing: border-box;
+  }
+
+  .menu-items {
+    display: flex;
+    list-style: none;
+  }
+
+  .nav-link { padding: 10px 12px; }
+
+  .top-nav {
+    text-decoration: none;
+    color: #172b4d;
+  }
+
+  .menu-items .contact { margin-right: 0; }
+
+  /* styling the main heading content */
+  .description-mob { display: none; }
+
+  .description-des {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: flex-start;
+    width: 1082px;
+    padding-left: 140px;
+  }
+
+  .name-des h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    color: #091e42;
+    padding-bottom: 10px;
+  }
+
+  .connecting {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #7f8cff;
+    font-style: normal;
+    line-height: 24px;
+  }
+
+  .apps { padding-left: 100px; }
+
+  .apps ul {
+    list-style: none;
+    align-items: center;
+  }
+
+  .apps li {
+    display: inline-block;
+    padding: 10px 10px;
+    align-content: center;
+  }
+
+  /* styling the works page */
+
+  .card {
+    border: solid 1px #dfe1e6;
+    border-radius: 18px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    text-justify: auto;
+    justify-content: space-between;
+    width: 900px;
+  }
+
+  .card2,
+  .card4 { display: none; }
+
+  .card .screenshot { width: 50%; }
+
+  .col2 {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #dfe1e6;
+    border-radius: 18px;
+    padding: 20px;
+    width: 400px;
+  }
+
+  .sub-heading,
+  .main-heading { padding-bottom: 20px; }
+
+  .language-button { padding-bottom: 20px; }
+
+  /* styling about page */
+  .about {
+    margin-left: -100px;
+    width: 1082px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    flex-wrap: wrap;
+  }
+
+  .abt1 {
+    width: 400px;
+    min-height: 75vw;
+    padding-bottom: 40px;
+  }
+
+  .abt2 {
+    float: left;
+    padding: 120px 0 0 0;
+    width: 450px;
+  }
+
+  .me { padding-bottom: 20px; }
+
+  .img-lang {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    float: left;
+    border-radius: 8px;
+    height: 90px;
+  }
+
+  .img-fw {
+    width: 38px;
+    padding: 10px 0 0 10px;
+  }
+
+  .name-lang { padding: 20px 30px 0 10px; }
+
+  .language {
+    display: flex;
+    flex-direction: row;
+  }
+
+  ul .language { display: flex; }
+
+  .socials,
+  .icons { padding-bottom: 20px; }
+
+  .works-list { padding-top: 20px; }
+
+  /* contact section */
+
+  .footer-section {
+    background-image: url(pics/Group57.svg);
+    padding: 20px 350px;
+    width: 1082px;
+    margin: -180px 0 0 -100px;
+    border-top-left-radius: 200px;
+  }
+
+  .footer {
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    left: 320px;
+    border: 0;
+  }
+
+  .footer h2 {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .submit-contact { align-self: center; }
+}
+
+/* DESKTOP VERSION CSS LARGE SCREEN SIZE above 1100px */
+@media only screen and (min-width: 1100px) {
   html { scroll-behavior: smooth; }
 
   * {
@@ -680,3 +906,6 @@ footer .contact-text {
 
   .submit-contact { align-self: center; }
 }
+
+
+
