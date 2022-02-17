@@ -339,8 +339,8 @@ img[src*="peace.svg"]:hover {
 
 img[src*="Union.png"] {
   display: block;
-  height: 12px;
-  width: 20px;
+  height: 10px;
+  width: 12px;
   left: 10px;
   top: 6px;
 }
@@ -629,6 +629,64 @@ margin-right: 0;
 }
 
 .language-button {
+  padding-bottom: 20px;
+}
+
+/* styling about page */
+.about {
+  margin-left: -100px;
+  width: 1152px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  flex-wrap: wrap;
+
+}
+.abt1 {
+  width: 500px;
+  padding-bottom: 20px;
+}
+
+.abt2 {
+  float: left;
+  padding: 120px 0 0 0;
+  width: 450px;
+}
+.me {
+  padding-bottom: 20px;
+}
+
+ul .language {
+  display: flex;
+}
+
+.img-lang {
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+  float: left;
+  border-radius: 8px;
+  height: 90px;
+}
+
+.img-fw {
+  width: 38px;
+  padding: 10px 0 0 10px;
+}
+
+.name-lang {
+  padding: 20px 30px 0 10px;
+}
+
+.language {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  
+}
+
+.socials,
+.icons {
   padding-bottom: 20px;
 }
 
