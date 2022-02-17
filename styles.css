@@ -498,7 +498,7 @@ footer .contact-text {
   .desktop-logo {
     text-decoration: none;
     color: #6070ff;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -542,10 +542,9 @@ footer .contact-text {
     width: 1280px;
     padding-left: 140px;
   }
-  
+
   .name-des h1 {
-    font-family: 'Poppins',sans-serif;
-    font-weight: 700px;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 48px;
     color: #091e42;
@@ -584,6 +583,7 @@ footer .contact-text {
     background-color: #fff;
     text-justify: auto;
     justify-content: space-between;
+    width: 1082px;
   }
 
   .card2, 
@@ -597,9 +597,10 @@ footer .contact-text {
     border: solid 1px #dfe1e6;
     border-radius: 18px;
     padding: 20px;
-    width: 430px;
+    width: 500px;
   }
-  .sub-heading { padding-bottom: 20px; }
+  .sub-heading, 
+  .main-heading { padding-bottom: 20px; }
 
   .language-button { padding-bottom: 20px; }
 
@@ -668,7 +669,7 @@ footer .contact-text {
     justify-content: center;
     align-self: center;
     left: 320px;
-    border: 0px;
+    border: 0;
   }
 
   .footer h2 {
