@@ -600,4 +600,36 @@ margin-right: 0;
   align-content: center;
 }
 
+/* styling the works page */
+
+.card {
+  border: solid 1px #dfe1e6;
+  border-radius: 18px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  text-justify: auto;
+  justify-content: space-between;
+}
+
+.card .screenshot {
+  width: 50%;
+}
+.col2 {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #dfe1e6;
+  border-radius: 18px;
+  padding: 20px;
+  width: 430px;
+}
+.sub-heading {
+  padding-bottom: 20px;
+}
+
+.language-button {
+  padding-bottom: 20px;
+}
+
 }
