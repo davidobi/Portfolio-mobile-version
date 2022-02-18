@@ -44,6 +44,25 @@
   }
 }
 
+.connecting,
+.apps {
+  animation: fadeConect 2000ms forwards;
+  opacity: 0;
+  animation-delay: 1000ms;
+}
+
+@keyframes fadeConect {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .name,
 .name-des p {
   animation: fadeToRight 800ms forwards;
