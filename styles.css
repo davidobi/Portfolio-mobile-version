@@ -1,11 +1,11 @@
 /* MOBILE VERSION CSS */
-.desktop-nav { display: none; }
-
 /* animation */
 .desktop-nav {
   animation: fadeDown 1000ms forwards;
   opacity: 0;
+  display: none;
 }
+
 @keyframes fadeDown {
   from {
     opacity: 0;
@@ -48,6 +48,7 @@
   opacity: 0;
   animation-delay: 800ms;
 }
+
 body {
   display: flex;
   min-height: 100vh;
