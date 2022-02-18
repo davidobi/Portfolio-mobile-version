@@ -1,5 +1,74 @@
 /* MOBILE VERSION CSS */
-.desktop-nav { display: none; }
+
+/* animation */
+.desktop-nav {
+  animation: fadeDown 1000ms forwards;
+  opacity: 0;
+  display: none;
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.name,
+.name-des h1 {
+  animation: fadeIn 800ms forwards;
+  opacity: 0;
+  animation-delay: 400ms;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeToRight {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.connecting,
+.apps {
+  animation: fadeConect 2000ms forwards;
+  opacity: 0;
+  animation-delay: 1000ms;
+}
+
+@keyframes fadeConect {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.name,
+.name-des p {
+  animation: fadeToRight 800ms forwards;
+  opacity: 0;
+  animation-delay: 800ms;
+}
 
 body {
   display: flex;
