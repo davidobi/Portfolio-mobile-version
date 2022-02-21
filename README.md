@@ -27,7 +27,7 @@ Clone this repo on git " git clone https://github.com/davidobi/Portfolio-mobile-
 next: cd into the directory "cd Portfolio-mobile-version"
 
 
-### Live Demo
+### App Live Demo
 [Live Demo Link](https://davidobi.github.io/Portfolio-mobile-version/)
 
 ## Authors
