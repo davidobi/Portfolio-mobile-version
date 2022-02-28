@@ -84,7 +84,7 @@ a:link { text-decoration: none; }
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   left: 0;
-  background: #6070FF;
+  background: #6070ff;
   right: 0;
   z-index: 200;
   opacity: 0;
@@ -98,6 +98,7 @@ a:link { text-decoration: none; }
   pointer-events: auto;
   top: 0;
 }
+
 .mobile-nav .menu-items {
   list-style: none;
   padding: 0;
@@ -106,10 +107,12 @@ a:link { text-decoration: none; }
 .mobile-nav .menu-items li {
   margin: 20px 0;
 }
+
 .mobile-nav .menu-items li a {
-  color: #F7F7F9;
+  color: #f7f7f9;
   text-decoration: none;
 }
+
 .mobile-nav .close-menu {
   position: absolute;
   width: 50px;
