@@ -69,53 +69,54 @@
   opacity: 0;
   animation-delay: 800ms;
 }
+
+a:link { text-decoration: none; }
+
+.apps li { display: inline-block; }
+
 /* Mobile Nav */
 .mobile-nav {
-    display: flex;
-    height: 100vh;
-    padding: 40px 50px;
-    position: fixed;
-    font-size: 32px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    left: 0;
-    background: #6070FF;
-    right: 0;
-    z-index: 200;
+  display: flex;
+  height: 100vh;
+  padding: 40px 50px;
+  position: fixed;
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  left: 0;
+  background: #6070FF;
+  right: 0;
+  z-index: 200;
+  opacity: 0;
+  pointer-events: none;
+  top: -100%;
+  transition: 400ms;
+}
 
-    opacity: 0;
-    pointer-events: none;
-    top: -100%;
-    transition: 400ms;
-  }
+.mobile-nav.active {
+  opacity: 0.95;
+  pointer-events: auto;
+  top: 0;
+}
+.mobile-nav .menu-items {
+  list-style: none;
+  padding: 0;
+}
 
-  .mobile-nav.active {
-    opacity: 0.95;
-    pointer-events: auto;
-    top: 0;
-  }
-
-  .mobile-nav .menu-items {
-    list-style: none;
-    padding: 0;
-  }
-
-  .mobile-nav .menu-items li {
-    margin: 20px 0;
-  }
-
-  .mobile-nav .menu-items li a {
-    color: #F7F7F9;
-    text-decoration: none;
-  }
-
-  .mobile-nav .close-menu {
-    position: absolute;
-    width: 50px;
-    right: 30px;
-    top: 15px;
-    border-radius: 10px;
-  }
+.mobile-nav .menu-items li {
+  margin: 20px 0;
+}
+.mobile-nav .menu-items li a {
+  color: #F7F7F9;
+  text-decoration: none;
+}
+.mobile-nav .close-menu {
+  position: absolute;
+  width: 50px;
+  right: 30px;
+  top: 15px;
+  border-radius: 10px;
+}
 
 body {
   display: flex;
@@ -149,8 +150,6 @@ body {
   text-align: center;
   color: #6070ff;
 }
-
-a:link { text-decoration: none; }
 
 .mobile-logo {
   display: flex;
@@ -221,8 +220,6 @@ a:link { text-decoration: none; }
   list-style: none;
   align-items: center;
 }
-
-.apps li { display: inline-block; }
 
 .box { padding-right: 12px; }
 
