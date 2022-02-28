@@ -19,23 +19,44 @@
     <body>
         <div>
             
-            <!-- start of desktop nav -->
+            <!-- start of nav -->
             <header>
-                <nav class="desktop-nav">
-                    <div class="desktop-logo">
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            Welcome
-                        </a>
-                    </div>
+                <div class="wrapper">
+                    <div class="mobile-nav">
+
+                        <img class="close-menu" src="pics/close.svg" alt="close">
+
+                        <ul class="menu-items">
+                            <li>
+                                <a href="#works">Portfolio</a>
+                            </li>
                 
-                    <ul class="menu-items">
-                        <li class="nav-link"> <a class="top-nav" href="#">Portfolio</a> </li>
-                        <li class="nav-link"> <a class="top-nav" href="#">About</a> </li>
-                        <li class="nav-link contact"> <a class="top-nav" href="#">Contact</a> </li>
-                    </ul>
-                </nav>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <nav class="desktop-nav">
+                        <div class="desktop-logo">
+                            <a href="#" rel="noopener noreferrer">
+                                Welcome
+                            </a>
+                        </div>
+                    
+                        <ul class="menu-items">
+                            <li class="nav-link"> <a class="top-nav" href="#works">Portfolio</a> </li>
+                            <li class="nav-link"> <a class="top-nav" href="#about">About</a> </li>
+                            <li class="nav-link contact"> <a class="top-nav" href="#contact">Contact</a> </li>
+                        </ul>
+                    </nav>
+                </div>
             </header>
-            <!-- End of desktop nav -->
+            <!-- End of nav -->
 
             <!-- start of container section -->
             <section class="container">
@@ -43,9 +64,9 @@
 
                     <!-- Start of mobile nav -->
                     <div class="mobile-logo">
-                        <h2 class="my-mobile-logo"><a href="#" target="_blank" rel="noopener noreferrer">Welcome</a></h2>
+                        <h2 class="my-mobile-logo"><a href="#" rel="noopener noreferrer">Welcome</a></h2>
                         <nav>
-                            <img class="ham" src="pics/hamburger.png" alt="hamburger">
+                            <img class="ham menu-icon" src="pics/hamburger.png" alt="hamburger">
                         </nav>
                     </div>
                     <!-- end of mobile nav -->
@@ -112,7 +133,7 @@
                 <!-- end of homepage section -->
             
                 <!-- start of works section -->
-                <section class="works">
+                <section class="works" id="works">
                     <div class="grid-container">
                         <div class="card card1">
                             <img class="screenshot" src="./pics/homepage.png" alt="work1">
@@ -303,7 +324,7 @@
                 <!-- end of works section -->
             
                 <!-- start of about section -->
-                <section class="about">
+                <section class="about" id="about">
                     <div class="abt1">
                         <h2 class="me"> About<br>Myself</h2>
                         <p class="introduction">
@@ -353,7 +374,7 @@
 
                 <!-- Start of footer section -->
                 <section class="footer-section">
-                    <footer class="footer">
+                    <footer class="footer" id="contact">
                         <h2>Contact me</h2>
                         <p class="contact-text">If you have an application you are interested in developing, a feature that
                                 you need built or a project that needs coding. I’d love to help with it </p>
@@ -375,6 +396,7 @@
                 <!-- end of footer section -->
             </section>
             <!-- end of container section -->
-        </div>      
+        </div>
+        <script src="main.js"></script>
     </body>
 </html>
