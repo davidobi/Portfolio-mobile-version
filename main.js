@@ -182,3 +182,76 @@ seeMeBtns.forEach((btn, index) => {
     });
   });
 });
+
+
+// Form Validation check
+
+const form = document.getElementById('form');
+const username = document.getElementById('name');
+const email = document.getElementById('mail');
+const msg = document.getElementById('message');
+
+function setError(input, message) {
+  const formControl = input.parentElement;
+  const small = formControl.querySelector('small');
+
+  small.innerText = message;
+  formControl.className = 'form-control error';
+}
+
+function setSuccess(input) {
+  const formControl = input.parentElement;
+  formControl.className = 'form-control success'
+}
+
+function isEmail(email) {
+  return /^[a-z0-9._%+-]{3,}@[a-z0-9]{3,}(?:\.[a-z]{2,}){1,3}$/.test(email);
+}
+
+function checkInputs() {
+  const usernameValue = username.value.trim();
+  const emailValue = email.value.trim();
+  const msgValue = msg.value.trim();
+
+  if (usernameValue === '') {
+    setError(username, 'Username field cannot be blank');
+    return false;
+  }
+  setSuccess(username);
+
+  if(emailValue === '') {
+    setError(email, 'Email field cannot be blank');
+    return false;
+  }
+
+  if (!isEmail(emailValue)) {
+    setError(email, 'Enter a valid Email');
+    return false;
+  }
+
+  if (isEmail(emailValue.isUpper)) {
+    setError(email, 'Enter email in lower case');
+    return false;
+  }
+
+  setSuccess(email);
+
+  if(msgValue === '') {
+    setError(msg, 'Message cannot be blank');
+    return false;
+  }
+  setSuccess(msg);
+  return true;
+}
+
+[username, email].forEach((userText) => userText.addEventListener('keyup', (event) => {
+  event.preventDefault();
+  checkInputs();
+}));
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  if (checkInputs()) {
+    form.submit();
+  }
+});

@@ -818,7 +818,54 @@ footer .contact-text {
   width: 50%;
 }
 
+ul.form-content {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+ul.form-content * {
+  box-sizing: border-box;
+  width: calc(100% - 24px);
+}
+
 .submit-contact:hover { font-weight: bold; }
+
+/* form validation styling */
+small {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.error {
+  color: #a31000;
+  font-size: 18px;
+  font-family: inherit;
+}
+
+.form-control { padding: 10px 0; }
+
+.form-control.success input {
+  border-color: #2ecc71;
+}
+
+.form-control.success textarea {
+  border-color: #2ecc71;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control.error textarea {
+  border-color: #e74c3c;
+}
+
+.form-control.success small {
+  visibility: hidden;
+}
+
 
 /* DESKTOP VERSION CSS MEDIUM SCREEN SIZE (IPAD) */
 @media only screen and (min-width: 600px) {
