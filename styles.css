@@ -410,6 +410,10 @@ a:link { text-decoration: none; }
   padding-left: 20px;
 }
 
+li .tool {
+  display: inline-block;
+}
+
 .tool {
   background: #ebebff;
   border-radius: 8px;
@@ -537,6 +541,7 @@ a:link { text-decoration: none; }
 
 .subtitlePopupValue ul {
   display: flex;
+  padding-bottom: 10px;
 }
 
 /* Mobile Nav Popup */
@@ -1292,6 +1297,8 @@ footer .contact-text {
     font-size: 1em;
   }
 
+  .modal-info { display: flex; }
+
   .modal-tools li {
     margin-bottom: 10px;
   }
@@ -1566,8 +1573,23 @@ footer .contact-text {
     font-size: 1em;
   }
 
+  .modal-info {
+    display: flex;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+
   .modal-tools li {
     margin-bottom: 10px;
+  }
+
+  .style-btn {
+    display: inline;
+    width: 100%; 
+  }
+
+  .style-btn :after {
+  content: "";
   }
 
   .text-info ul li {
