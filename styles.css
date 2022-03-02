@@ -333,10 +333,8 @@ a:link { text-decoration: none; }
 .work-img {
   display: flex;
   justify-content: stretch;
-  margin: 0 15px 0 0;
+  margin: 0 21px;
   transition: transform 1s linear;
-  width: 130%;
-  padding-right: 10px;
 }
 
 .work-img:hover {
@@ -415,7 +413,7 @@ a:link { text-decoration: none; }
 }
 
 .tonic {
-  padding: 5px 0 5px 5px;
+  padding: 5px 0 5px 20px;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -963,8 +961,8 @@ footer .contact-text {
   }
 
   .work-info {
-    padding: 30px 10px 10px 20px;
-    width: 40%;
+    padding: 30px;
+    width: 50%;
   }
 
   .tags {
@@ -1232,6 +1230,15 @@ footer .contact-text {
     padding-right: 20px;
   }
 
+  .tonic {padding-left: -30px !important;}
+
+  .work-img {
+    width: 120%;
+    padding-right: 20px;
+    padding-left: -10px;
+
+  }
+
   .reverse {
     flex-direction: row-reverse;
     margin-right: 50px;
@@ -1389,7 +1396,7 @@ footer .contact-text {
     border-bottom-left-radius: 90px;
     display: grid;
     justify-self: center;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -1407,7 +1414,7 @@ footer .contact-text {
     justify-content: space-between;
     align-items: center;
     height: 72px;
-    width: 1320;
+    width: 100%;
     background-color: white;
     padding-right: 15%;
   }
@@ -1428,11 +1435,8 @@ footer .contact-text {
     border-bottom-left-radius: 100px;
     background-image: url(pics/Group.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 1280px 646px;
     box-sizing: border-box;
-    width: 1280px;
-    margin-left: 10px;
-
   }
 
   .menu-items {
@@ -1450,7 +1454,7 @@ footer .contact-text {
   .menu-items .contact { margin-right: 0; }
 
   /* styling the main heading content */
-  h1 { padding-top: 150px; }
+  h1 { padding-top: 10px; }
 
   .description-mob { display: none; }
 
@@ -1522,7 +1526,6 @@ footer .contact-text {
   .tags {
     width: 305px;
     grid-template-columns: auto auto auto auto;
-    margin-left: 0;
   }
 
   .tags > li {
