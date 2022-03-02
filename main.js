@@ -183,7 +183,6 @@ seeMeBtns.forEach((btn, index) => {
   });
 });
 
-
 // Form Validation check
 
 const form = document.getElementById('form');
@@ -201,7 +200,7 @@ function setError(input, message) {
 
 function setSuccess(input) {
   const formControl = input.parentElement;
-  formControl.className = 'form-control success'
+  formControl.className = 'form-control success';
 }
 
 function isEmail(email) {
@@ -219,7 +218,7 @@ function checkInputs() {
   }
   setSuccess(username);
 
-  if(emailValue === '') {
+  if (emailValue === '') {
     setError(email, 'Email field cannot be blank');
     return false;
   }
@@ -236,7 +235,7 @@ function checkInputs() {
 
   setSuccess(email);
 
-  if(msgValue === '') {
+  if (msgValue === '') {
     setError(msg, 'Message cannot be blank');
     return false;
   }

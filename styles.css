@@ -866,7 +866,6 @@ small {
   visibility: hidden;
 }
 
-
 /* DESKTOP VERSION CSS MEDIUM SCREEN SIZE (IPAD) */
 @media only screen and (min-width: 600px) {
   html { scroll-behavior: smooth; }
